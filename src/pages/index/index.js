@@ -1,13 +1,16 @@
-import React, { useRef } from "react";
+import React from "react";
 import { View, Text } from "remax/wechat";
 import styles from "./index.module.css";
 import Region from "../Region";
+import Charts from "../Charts";
 
 export default () => {
-  const pickerRef = useRef(null);
   return (
     <View className={styles.app}>
+      <Text>====== Region ======</Text>
       <Region />
+      <Text>====== Charts ======</Text>
+      <Charts />
     </View>
   );
 };
