@@ -13,7 +13,7 @@ export default () => {
       <Charts />
       <Text className={styles.title}>====== Button ======</Text>
       <Text className={styles.tips}>
-        测试在绝对定位情况下按钮的阻止冒泡回调事件(stopPropagation)
+        测试在绝对定位情况下点击阻止冒泡回调事件(stopPropagation)
       </Text>
       <View
         style={{
