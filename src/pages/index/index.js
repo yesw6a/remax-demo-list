@@ -3,10 +3,13 @@ import { View, Text, Button, showModal } from "remax/wechat";
 import styles from "./index.module.css";
 import Region from "../Region";
 import Charts from "../Charts";
+import TestClassName from '../../components/TestClassName'
 
 export default () => {
   return (
     <View className={styles.app}>
+      <Text className={styles.title}>====== Test Classname Sortable ======</Text>
+      <TestClassName className={styles.testPage}/>
       <Text className={styles.title}>====== Region ======</Text>
       <Region />
       <Text className={styles.title}>====== Charts ======</Text>
